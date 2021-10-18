@@ -1,0 +1,184 @@
+*
+{
+    background-color: #000000;
+    color: aliceblue;
+}
+
+  /*made the ordered list*/
+ header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+   /*Makes the header go right*/
+  header li {
+    float: right;
+    
+  }
+   /*Controls the text and background color of the header*/
+  header nav ul li a {
+     color: rgb(255, 255, 255);
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+  }
+   /*Changes color if you hover*/
+  header li a:hover {
+    background-color: #060766;
+  }
+  body
+  {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
+   /*Contents below adding the underline theats dashed*/
+  h3
+  {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    text-decoration-thickness: 1px;
+  }
+   /*Text that leads to my resume,work,ect*/
+  h4{
+    text-align: left;
+    font-size: 50px;
+    border-right: 5px solid #060766;
+    border-spacing: 5px;
+    }
+    /*the text in the contact me section */
+  h5{
+    font-size: 25px;
+    padding-top: 150px;
+  }
+  h6{
+    background-color: white;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    
+  }
+  /*My banner under Contents below*/
+  .hero {
+    background-image: url('../code.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+    /* Hero Style End */
+    /*got rid of the dot mark*/
+  .contents ul {
+    list-style: none;   
+  }
+  
+    /*Text in about me*/
+  p{
+    padding-left: 200px;
+    font-size: 20px;
+  }
+  /*Weezer img*/
+  img{
+    padding-top: 150px;
+    padding-left: 200px;
+  }
+  
+  /*About me head*/
+  #about{
+    margin-left: -50px;
+    position:absolute;
+  }
+  /*My work head*/
+  #work{
+    margin-left: -5px;
+    position:absolute;
+  }
+  /*Contact me head*/
+  #contact{
+    margin-left: -50px;
+    position:absolute;
+  }
+  /*The resume head*/
+  #resume{
+    margin-left: -50px;
+    position:absolute;
+  }
+  /*allows the padding around its section*/
+  .aboutme
+  {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+  }
+  /*allows the padding around its section my resume*/
+  .paper
+  {
+    margin-top: -30px;
+    margin-left: 40px;
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+  }
+  /*allows the padding around its section is for work*/
+ .proof{
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+  
+ }
+ /*allows the padding around its section is for contact me*/
+ .book
+ {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+ }
+ /*controls the text that goes into the image for horiseon*/
+  #hor{
+    margin-top: -15px;
+    margin-left: 790px;
+  }
+  /*controls the text that goes into the image for run-buddy*/
+  #run
+  {
+    margin-top: -15px;
+    margin-left: 620px;
+  }
+  /*controls the text that goes into the image chocolate*/
+  #choc{
+    margin-bottom: -1065px;
+    margin-left: 555px;
+  }
+  /*controls the text that goes into the image for fanpage*/
+  #fan{
+    margin-left: 540px;
+    margin-top: -15px;
+  }
+  ul li a:hover img {
+    transform: scale(.5);
+}
